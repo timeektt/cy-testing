@@ -79,5 +79,14 @@ describe('Second test suite', () => {
 ## Working with APi
 ![image](https://github.com/timeektt/cy-testing/assets/159244256/4a42822e-103a-4f88-8ba8-61e70b2b867b)
 
+![image](https://github.com/timeektt/cy-testing/assets/159244256/f7566053-7121-4bbd-9b17-24e6147114cd)
 
+![image](https://github.com/timeektt/cy-testing/assets/159244256/bd2cdf7e-6291-41a5-b374-f56c15bee95c)
 
+![image](https://github.com/timeektt/cy-testing/assets/159244256/e0cdfc59-acde-44a4-ad3e-7e7c84294f71)
+
+![image](https://github.com/timeektt/cy-testing/assets/159244256/3fcec33a-07ad-4c41-9923-3b26930bdfd3)
+
+![image](https://github.com/timeektt/cy-testing/assets/159244256/d656235e-ed33-456f-88dd-2b7e7d53414a)
+
+![image](https://github.com/timeektt/cy-testing/assets/159244256/a49dfa3e-a8f8-46dc-a0d5-7deee8becfbe)
