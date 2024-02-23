@@ -1,10 +1,13 @@
 # Cypress
-Cypress install
-- npm intstall cypress --save--dev
+## Cypress install
+```bash
+# Cypress install
+$ npm intstall cypress --save--dev
+```
 
 ---
 
-DOM Terminology
+## DOM Terminology
 
 ![image](https://github.com/timeektt/cy-testing/assets/159244256/5a4736eb-6c36-49eb-8611-2b536e4c7405)
 
@@ -22,6 +25,59 @@ DOM Terminology
 
 ---
 
-Tests Structure
+## Tests Structure
 
-![image](https://github.com/timeektt/cy-testing/assets/159244256/f627d3ef-6bc9-4095-8e22-e4024771db32)
+```bash
+/// <reference types="cypress" />
+
+describe('First test suite', () => {
+
+    describe('suite section', () => {
+
+        beforeEach('login', () => {
+            //repeat for every test
+        })
+
+        it('First test', () => {
+            //put the code of the test
+        })
+
+        it('Second test', () => {   
+            //put the code of the test
+        })
+    })
+
+    it('First test', () => {
+        //put the code of the test
+    })
+
+    it('Second test', () => {
+        //put the code of the test
+    })
+
+    it('Third test', () => {
+        //put the code of the test
+    })
+})
+
+describe('Second test suite', () => {
+
+    it('First test', () => {
+        //put the code of the test
+    })
+
+    it('Second test', () => {
+        //put the code of the test
+    })
+
+    it('Third test', () => {
+        //put the code of the test
+    })
+})
+```
+
+## Working with APi
+![image](https://github.com/timeektt/cy-testing/assets/159244256/4a42822e-103a-4f88-8ba8-61e70b2b867b)
+
+
+
