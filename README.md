@@ -90,3 +90,49 @@ describe('Second test suite', () => {
 ![image](https://github.com/timeektt/cy-testing/assets/159244256/d656235e-ed33-456f-88dd-2b7e7d53414a)
 
 ![image](https://github.com/timeektt/cy-testing/assets/159244256/a49dfa3e-a8f8-46dc-a0d5-7deee8becfbe)
+
+## JSON Objects
+
+```bash
+/// <reference types="cypress" />
+
+describe('First test suite', () => {
+
+    it('JSON Objects', () => {
+        cy.openHomePage()
+
+        const simpleObject = { "key": "value", "key2": "value2" }
+
+        const simpleArrayOfValue = ["one", "two", "three"]
+
+        const arrayOfObject = [{ "key": "value" }, { "key2": "value2" }, { "key3": "value3" }]
+
+        const typesOfData = { "string": "this is a string", "number": 10 }
+
+        const mix = {
+            "FirstName": "Artem",
+            "LastName": "Bondar",
+            "Age": 30,
+            "Students": [
+                {
+                    "firstName": "sara",
+                    "lastName": "Conor"
+                },
+                {
+                    "firstName": "Bruce",
+                    "lastName": "Willis"
+                }
+            ]
+        }
+
+        console.log(simpleObject.key2)
+        console.log(simpleObject["key2"])
+        console.log(simpleArrayOfValue[1])
+        console.log(arrayOfObject[2].key3)
+        console.log(mix.Students[0].firstName)
+
+        const lastNameOfSecondStudent = mix.Students[1].lastName
+        console.log("the last name of second studens is " + lastNameOfSecondStudent)
+    })
+})
+```
