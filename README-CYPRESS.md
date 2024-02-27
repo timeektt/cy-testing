@@ -2,7 +2,7 @@
 ## Cypress install
 ```bash
 # Cypress install: run in Repo
-$ npm intstall cypress --save--dev
+$ npm install cypress --save--dev
 ```
 
 ---
