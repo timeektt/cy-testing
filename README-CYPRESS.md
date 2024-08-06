@@ -2,12 +2,16 @@
 ## Cypress install
 ```bash
 # Cypress install: run in Repo
+$ npm init
 $ npm install cypress --save-dev
 ```
-
----
+## Cypress run
+```
+$ npx cypress open
+```
 
 ## DOM Terminology
+---
 
 ![image](https://github.com/timeektt/cy-testing/assets/159244256/5a4736eb-6c36-49eb-8611-2b536e4c7405)
 
