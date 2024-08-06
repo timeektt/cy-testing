@@ -12,7 +12,6 @@ $ npx cypress open
 
 ## DOM Terminology
 ---
-
 ![image](https://github.com/timeektt/cy-testing/assets/159244256/5a4736eb-6c36-49eb-8611-2b536e4c7405)
 
 ![image](https://github.com/timeektt/cy-testing/assets/159244256/202f583a-f2fe-4a2c-90af-b67cc9ad0bea)
